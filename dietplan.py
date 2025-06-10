@@ -7,7 +7,7 @@ import os
 from datetime import datetime
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv("AIzaSyAgEitj_uAy5UpNmxNl5RX8Sdh6BAQw0C4"))
+genai.configure(api_key=os.getenv("AIzaSyBwEhdfJX7IgSJQadMW_J12b58K2NDHqtA"))
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 # App title and description
